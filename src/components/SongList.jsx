@@ -40,5 +40,5 @@ const mapStateToProps = (state) => {
 // connect is a function that returns another function,
 // so here, you just call the two functions ()(...)
 export default connect(mapStateToProps, {
-  selectSong
+  selectSong,
 })(SongList);
