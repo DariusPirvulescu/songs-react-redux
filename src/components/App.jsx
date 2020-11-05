@@ -7,7 +7,12 @@ import "./App.css";
 const App = () => {
   return (
     <div>
-      <h2 className="title">React + Redux = <span role="img" aria-label="love-hearth">💓</span> </h2>
+      <h2 className="title">
+        React + Redux ={" "}
+        <span role="img" aria-label="love-hearth">
+          💓
+        </span>{" "}
+      </h2>
       <div className="ui container grid">
         <div className="ui row">
           <div className="column eight wide">
